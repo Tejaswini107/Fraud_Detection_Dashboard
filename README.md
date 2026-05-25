@@ -30,7 +30,7 @@ This project implements an end-to-end fraud detection pipeline using machine lea
 
 ## Deployment
 Streamlit Dashboard URL:
-(Add deployment link here)
+https://frauddetectiondashboard-e7budnutszjjiashazmii6.streamlit.app
 
 ## Running Locally
 

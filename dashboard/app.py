@@ -28,19 +28,19 @@ st.title(
 #Loading deployment files
 
 model = joblib.load(
-    'model.pkl'
+    'dashboard/model.pkl'
 )
 
 scaler = joblib.load(
-    'scaler.pkl'
+    'dashboard/scaler.pkl'
 )
 
 feature_columns = joblib.load(
-    'feature_columns.pkl'
+    'dashboard/feature_columns.pkl'
 )
 
 dashboard_df = pd.read_csv(
-    'dashboard_data.csv'
+    'dashboard/dashboard_data.csv'
 )
 
 #Sidebar navigation
